@@ -5,17 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MindfulMobile</title>
     <style>
-        body { font-family: sans-serif; text-align: center; padding: 50px; background-color: #f9f9f9; color: #333; }
-        h1 { color: #2c3e50; margin-top: 20px; }
-        p { font-size: 18px; max-width: 600px; margin: 20px auto; line-height: 1.6; }
+        body { font-family: sans-serif; text-align: center; padding: 50px 20px; background-color: #f9f9f9; color: #333; }
+        h1 { color: #2c3e50; margin-top: 20px; font-size: 28px; }
+        p { font-size: 18px; max-width: 600px; margin: 20px auto; line-height: 1.6; color: #555; }
         .logo { width: 120px; height: auto; margin: 0 auto; display: block; }
+        
+        /* Styl sekcji projektów */
+        .projects-section { margin-top: 60px; }
+        .projects-title { font-size: 22px; color: #2c3e50; border-bottom: 2px solid #eee; display: inline-block; padding-bottom: 5px; margin-bottom: 30px; }
+        .project-card { background: white; border: 1px solid #e1e4e8; border-radius: 8px; padding: 25px; max-width: 450px; margin: 0 auto; text-align: left; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        .project-name { font-size: 20px; margin: 0 0 10px 0; color: #2c3e50; display: flex; align-items: center; justify-content: space-between; }
+        .badge { background-color: #e2e8f0; color: #4a5568; font-size: 12px; padding: 3px 8px; border-radius: 12px; font-weight: bold; }
+        .project-desc { font-size: 15px; color: #666; line-height: 1.5; margin: 0; }
     </style>
 </head>
 <body>
-    <!-- Sekcja wyświetlająca Twoje logo SVG -->
+
+    <!-- Sekcja nagłówka -->
     <img src="MindfulMobile_logo.svg" alt="MindfulMobile Logo" class="logo">
-    
     <h1>MindfulMobile</h1>
     <p>As an aspiring developer, I create applications designed to go beyond the workplace and bring real value to a broader audience. I focus on building practical tools that are genuinely useful in everyday life.</p>
+
+    <!-- Nowa sekcja projektów -->
+    <div class="projects-section">
+        <h2 class="projects-title">Our Apps</h2>
+        <div class="project-card">
+            <div class="project-name">
+                ZenBlocks
+                <span class="badge">Coming Soon</span>
+            </div>
+            <p class="project-desc">A minimalist, relaxing puzzle game designed to clear your mind. Focus on arranging geometric structures at your own pace without unnecessary stress or distractions.</p>
+        </div>
+    </div>
+
 </body>
 </html>
